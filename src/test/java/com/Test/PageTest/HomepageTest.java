@@ -2,6 +2,7 @@ package com.Test.PageTest;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -40,6 +41,8 @@ public class HomepageTest
 	{
 		homepage=new Homepage(driver);
 		System.out.println(homepage.Verify_Url());
+		
+		Assert.assertEquals(homepage.Verify_Url(), "Paradigm");
 	}
 	
 	@Test(priority=3)
@@ -47,6 +50,8 @@ public class HomepageTest
 	{
 		homepage=new Homepage(driver);
 		System.out.println(homepage.Verify_Title());
+		
+		Assert.assertEquals(homepage.Verify_Title(), "http://pcsv2dev.azurewebsite/#/");
 	}
 
 	@AfterMethod
