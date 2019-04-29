@@ -42,7 +42,7 @@ public class HomepageTest
 		homepage=new Homepage(driver);
 		System.out.println(homepage.Verify_Url());
 		
-		Assert.assertEquals(homepage.Verify_Url(), "http://pcsv2dev.azurewebsites.net");
+		Assert.assertEquals(homepage.Verify_Url(), "http://pcsv2dev.azurewebsites.net/#/");
 	}
 	
 	@Test(priority=3)
