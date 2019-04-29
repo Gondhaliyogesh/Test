@@ -59,7 +59,7 @@ public class HomepageTest
 		homepage=new Homepage(driver);
 		System.out.println(homepage.Verify_Title());
 		
-		Assert.assertEquals(homepage.Verify_Title(), "Paradigm");
+		Assert.assertEquals(homepage.Verify_Title(), "Paradig");
 	}
 
 	@AfterMethod
