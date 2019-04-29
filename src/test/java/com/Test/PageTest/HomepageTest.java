@@ -24,7 +24,7 @@ public class HomepageTest
 	
 	Homepage homepage;
 
-	@BeforeSuite
+	@BeforeMethod
 	public void Start() throws MalformedURLException
 	{
 		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Admin\\Desktop\\Yogesh Gondhali\\Software\\geckodriver.exe");
@@ -62,7 +62,7 @@ public class HomepageTest
 		Assert.assertEquals(homepage.Verify_Title(), "Paradigm");
 	}
 
-	@AfterClass
+	@AfterMethod
 	public void Close() 
 	{
 		driver.close();
