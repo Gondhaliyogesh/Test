@@ -35,8 +35,8 @@ public class HomepageTest
 		
 		 ChromeOptions options = new ChromeOptions();
 
-	       // options.setCapability("username", "yogeshsgondhali");
-	       // options.setCapability("accessKey", "d8efb3d5-2c86-4c50-894f-fbeab20810b4");
+	        options.setCapability("username", "yogeshsgondhali");
+	       options.setCapability("accessKey", "d8efb3d5-2c86-4c50-894f-fbeab20810b4");
 
 	        options.setCapability("browserName", "Chrome");
 	        options.setCapability("platform", "Windows 10");
