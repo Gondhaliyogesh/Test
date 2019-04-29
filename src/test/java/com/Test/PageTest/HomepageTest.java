@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
@@ -81,7 +82,7 @@ public class HomepageTest
 		Assert.assertEquals(homepage.Verify_Title(), "Paradigm");
 	}
 
-	@AfterMethod
+	@AfterClass
 	public void Close() 
 	{
 		driver.close();
