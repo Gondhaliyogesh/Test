@@ -39,9 +39,9 @@ public class HomepageTest
 	        options.setCapability("username", "yogeshshinde");
 	       options.setCapability("accessKey", "e251e6cf-8679-4c09-9dea-57f34692a481");
 
-	        options.setCapability("browserName", "Chrome");
-	        options.setCapability("platform", "Windows 10");
-	        options.setCapability("version", "73.0");
+	       // options.setCapability("browserName", "Chrome");
+	       // options.setCapability("platform", "Windows 10");
+	       // options.setCapability("version", "73.0");
 	        options.setCapability("build", "Paradigm_Login_Function");
 	        options.setCapability("name", "Login_Page");
 	        
