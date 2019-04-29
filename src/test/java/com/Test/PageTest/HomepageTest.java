@@ -1,10 +1,12 @@
 package com.Test.PageTest;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 import com.Test.Pages.Homepage;
@@ -17,15 +19,26 @@ public class HomepageTest
 	
 	Homepage homepage;
 
-	@BeforeMethod
+	@BeforeSuite
 	public void Start()
 	{
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Admin\\Desktop\\Yogesh Gondhali\\Software\\geckodriver.exe");
+		/*System.setProperty("webdriver.gecko.driver", "C:\\Users\\Admin\\Desktop\\Yogesh Gondhali\\Software\\geckodriver.exe");
 		driver=new FirefoxDriver();
 
 		driver.get("http://pcsv2dev.azurewebsites.net");
 
-		driver.manage().window().maximize();
+		driver.manage().window().maximize();*/
+		
+		 ChromeOptions options = new ChromeOptions();
+
+	       // options.setCapability("username", "yogeshsgondhali");
+	       // options.setCapability("accessKey", "d8efb3d5-2c86-4c50-894f-fbeab20810b4");
+
+	        options.setCapability("browserName", "Chrome");
+	        options.setCapability("platform", "Windows 10");
+	        options.setCapability("version", "73.0");
+	        options.setCapability("build", "Paradigm_Login_Function");
+	        options.setCapability("name", "Login_Page");
 
 	}
 	

@@ -40,6 +40,7 @@ public class ExtentReporterNG implements IReporter
 
 				buildTestNodes(context.getPassedTests(), LogStatus.PASS);
 				buildTestNodes(context.getFailedTests(), LogStatus.FAIL);
+				
 				buildTestNodes(context.getSkippedTests(), LogStatus.SKIP);
 			}
 		}

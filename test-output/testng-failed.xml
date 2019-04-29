@@ -9,15 +9,4 @@
       <class name="com.Test.PageTest.HomepageTest"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Test(failed)">
-    <classes>
-      <class name="com.Test.PageTest.HomepageTest">
-        <methods>
-          <include name="Start"/>
-          <include name="Title"/>
-          <include name="Close"/>
-        </methods>
-      </class> <!-- com.Test.PageTest.HomepageTest -->
-    </classes>
-  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
