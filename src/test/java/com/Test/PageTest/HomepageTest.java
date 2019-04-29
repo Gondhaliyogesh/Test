@@ -42,7 +42,7 @@ public class HomepageTest
 		homepage=new Homepage(driver);
 		System.out.println(homepage.Verify_Url());
 		
-		Assert.assertEquals(homepage.Verify_Url(), "Paradigm");
+		Assert.assertEquals(homepage.Verify_Url(), "http://pcsv2dev.azurewebsites.net");
 	}
 	
 	@Test(priority=3)
@@ -51,7 +51,7 @@ public class HomepageTest
 		homepage=new Homepage(driver);
 		System.out.println(homepage.Verify_Title());
 		
-		Assert.assertEquals(homepage.Verify_Title(), "http://pcsv2dev.azurewebsite/#/");
+		Assert.assertEquals(homepage.Verify_Title(), "Paradigm");
 	}
 
 	@AfterMethod
