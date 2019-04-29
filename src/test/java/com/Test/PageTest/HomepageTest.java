@@ -27,34 +27,14 @@ public class HomepageTest
 	@BeforeSuite
 	public void Start() throws MalformedURLException
 	{
-		/*System.setProperty("webdriver.gecko.driver", "C:\\Users\\Admin\\Desktop\\Yogesh Gondhali\\Software\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Admin\\Desktop\\Yogesh Gondhali\\Software\\geckodriver.exe");
 		driver=new FirefoxDriver();
 
 		driver.get("http://pcsv2dev.azurewebsites.net");
 
-		driver.manage().window().maximize();*/
+		driver.manage().window().maximize();
 		
-		 ChromeOptions options = new ChromeOptions();
-
-	        options.setCapability("username", "yogeshshinde");
-	       options.setCapability("accessKey", "e251e6cf-8679-4c09-9dea-57f34692a481");
-
-	       // options.setCapability("browserName", "Chrome");
-	       // options.setCapability("platform", "Windows 10");
-	       // options.setCapability("version", "73.0");
-	        options.setCapability("build", "Paradigm_Login_Function");
-	        options.setCapability("name", "Login_Page");
-	        
-	        driver = new RemoteWebDriver(new URL("http://ondemand.saucelabs.com:80/wd/hub"), options);
-
-	        /*System.setProperty("webdriver.chrome.driver","C:\\Users\\Admin\\Desktop\\Yogesh Gondhali\\Software\\chromedriver.exe");
-	        driver=new ChromeDriver();*/
-
-	        driver.manage().window().maximize();
-	        driver.manage().deleteAllCookies();
-
-	        driver.get("http://pcsv2dev.azurewebsites.net/#/");
-
+		
 	}
 	
 	@Test(priority=2)
