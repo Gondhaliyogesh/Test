@@ -65,7 +65,7 @@ public class LoginPage
 		homepage=new Homepage(driver);
 		System.out.println(homepage.Verify_Title());
 
-		Assert.assertEquals(homepage.Verify_Title(), "Paradigm");
+		Assert.assertEquals(homepage.Verify_Title(), "Paradm");
 	}
 
 	@Test(priority=4)
