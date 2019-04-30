@@ -16,8 +16,7 @@ import org.testng.annotations.Test;
 
 import com.Test.Pages.Homepage;
 
-import atu.testrecorder.ATUTestRecorder;
-import atu.testrecorder.exceptions.ATUTestRecorderException;
+
 
 
 
@@ -27,10 +26,9 @@ public class HomepageTest
 
 	Homepage homepage;
 
-	ATUTestRecorder recorder;
 
 	@BeforeMethod
-	public void Start() throws ATUTestRecorderException 
+	public void Start()
 	{
 		/*DateFormat dateFormat = new SimpleDateFormat("dd-MM-yy HH-mm-ss");
 		Date date = new Date();
