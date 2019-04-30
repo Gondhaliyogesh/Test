@@ -46,7 +46,7 @@ public class LoginPage
 		homepage=new Homepage(driver);
 		homepage.Verify_Login();
 
-		Assert.assertEquals(driver.getCurrentUrl(), "http://pcsv2dev.azurewebsites.net/#/clients/all");
+		Assert.assertEquals(driver.getCurrentUrl(), "http://pcsv2dev.azurewebsi");
 
 	}
 
@@ -74,7 +74,9 @@ public class LoginPage
 		homepage=new Homepage(driver);
 		homepage.Verify_Login();
 
+		System.out.println("Successfully Login");
 		homepage.Verify_Logout();
+		System.out.println("Successfully Logout");
 
 		Assert.assertEquals(driver.getCurrentUrl(), "http://pcsv2dev.azurewebsites.net/#/");
 	}
