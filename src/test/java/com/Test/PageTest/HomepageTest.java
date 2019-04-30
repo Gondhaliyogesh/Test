@@ -33,11 +33,11 @@ public class HomepageTest
 		/*DateFormat dateFormat = new SimpleDateFormat("dd-MM-yy HH-mm-ss");
 		Date date = new Date();
 
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Admin\\Desktop\\Yogesh Gondhali\\Software\\geckodriver.exe");
+		
 
 		recorder=new ATUTestRecorder("F:\\Auto\\Test\\ScriptVideos","Paradigm_Test_Exicution-"+dateFormat.format(date),false);
 */
-		
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Admin\\Desktop\\Yogesh Gondhali\\Software\\geckodriver.exe");
 		driver=new FirefoxDriver();
 		//recorder.start();
 
