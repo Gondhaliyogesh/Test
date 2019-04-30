@@ -1,48 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="com.Test.PageTest.HomepageTest" duration-ms="54219" started-at="2019-04-29T05:30:38Z" finished-at="2019-04-29T05:31:32Z">
+  <suite name="com.Test.PageTest.HomepageTest" duration-ms="113037" started-at="2019-04-30T10:51:20Z" finished-at="2019-04-30T10:53:13Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="54219" started-at="2019-04-29T05:30:38Z" finished-at="2019-04-29T05:31:32Z">
+    <test name="Command line test" duration-ms="113037" started-at="2019-04-30T10:51:20Z" finished-at="2019-04-30T10:53:13Z">
       <class name="com.Test.PageTest.HomepageTest">
-        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@6cd8737]" name="Start" is-config="true" duration-ms="17361" started-at="2019-04-29T05:30:38Z" finished-at="2019-04-29T05:30:55Z">
+        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@79b4d0f]" name="Start" is-config="true" duration-ms="17288" started-at="2019-04-30T10:51:20Z" finished-at="2019-04-30T10:51:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start -->
-        <test-method status="PASS" signature="Url()[pri:1, instance:com.Test.PageTest.HomepageTest@6cd8737]" name="Url" duration-ms="31" started-at="2019-04-29T05:30:55Z" finished-at="2019-04-29T05:30:55Z">
+        <test-method status="PASS" signature="Url()[pri:1, instance:com.Test.PageTest.HomepageTest@79b4d0f]" name="Url" duration-ms="25" started-at="2019-04-30T10:51:38Z" finished-at="2019-04-30T10:51:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Url -->
-        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@6cd8737]" name="Close" is-config="true" duration-ms="1255" started-at="2019-04-29T05:30:55Z" finished-at="2019-04-29T05:30:56Z">
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@79b4d0f]" name="Close" is-config="true" duration-ms="4207" started-at="2019-04-30T10:51:38Z" finished-at="2019-04-30T10:51:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@6cd8737]" name="Start" is-config="true" duration-ms="16010" started-at="2019-04-29T05:30:56Z" finished-at="2019-04-29T05:31:12Z">
+        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@79b4d0f]" name="Start" is-config="true" duration-ms="15829" started-at="2019-04-30T10:51:42Z" finished-at="2019-04-30T10:51:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start -->
-        <test-method status="PASS" signature="login()[pri:2, instance:com.Test.PageTest.HomepageTest@6cd8737]" name="login" duration-ms="437" started-at="2019-04-29T05:31:12Z" finished-at="2019-04-29T05:31:13Z">
+        <test-method status="PASS" signature="Login()[pri:2, instance:com.Test.PageTest.HomepageTest@79b4d0f]" name="Login" duration-ms="5929" started-at="2019-04-30T10:51:58Z" finished-at="2019-04-30T10:52:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@6cd8737]" name="Close" is-config="true" duration-ms="1167" started-at="2019-04-29T05:31:13Z" finished-at="2019-04-29T05:31:14Z">
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@79b4d0f]" name="Close" is-config="true" duration-ms="4199" started-at="2019-04-30T10:52:04Z" finished-at="2019-04-30T10:52:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@6cd8737]" name="Start" is-config="true" duration-ms="16655" started-at="2019-04-29T05:31:14Z" finished-at="2019-04-29T05:31:31Z">
+        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@79b4d0f]" name="Start" is-config="true" duration-ms="16068" started-at="2019-04-30T10:52:08Z" finished-at="2019-04-30T10:52:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start -->
-        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@6cd8737]" name="Close" is-config="true" duration-ms="1278" started-at="2019-04-29T05:31:31Z" finished-at="2019-04-29T05:31:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Close -->
-        <test-method status="PASS" signature="Title()[pri:3, instance:com.Test.PageTest.HomepageTest@6cd8737]" name="Title" duration-ms="0" started-at="2019-04-29T05:31:31Z" finished-at="2019-04-29T05:31:31Z">
+        <test-method status="PASS" signature="Title()[pri:3, instance:com.Test.PageTest.HomepageTest@79b4d0f]" name="Title" duration-ms="7" started-at="2019-04-30T10:52:24Z" finished-at="2019-04-30T10:52:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Title -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@79b4d0f]" name="Close" is-config="true" duration-ms="4299" started-at="2019-04-30T10:52:24Z" finished-at="2019-04-30T10:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@79b4d0f]" name="Start" is-config="true" duration-ms="16277" started-at="2019-04-30T10:52:28Z" finished-at="2019-04-30T10:52:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start -->
+        <test-method status="PASS" signature="Logout()[pri:4, instance:com.Test.PageTest.HomepageTest@79b4d0f]" name="Logout" duration-ms="24534" started-at="2019-04-30T10:52:44Z" finished-at="2019-04-30T10:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@79b4d0f]" name="Close" is-config="true" duration-ms="4354" started-at="2019-04-30T10:53:09Z" finished-at="2019-04-30T10:53:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
       </class> <!-- com.Test.PageTest.HomepageTest -->
     </test> <!-- Command line test -->
   </suite> <!-- com.Test.PageTest.HomepageTest -->

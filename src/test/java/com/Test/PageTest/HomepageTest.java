@@ -1,30 +1,19 @@
 package com.Test.PageTest;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
-import com.Test.Pages.Homepage;
-
-
-
-
 
 public class HomepageTest 
 {
 	WebDriver driver;
 
-	Homepage homepage;
+	com.Test.Pages.Homepage homepage;
 
 
 	@BeforeMethod
@@ -50,7 +39,7 @@ public class HomepageTest
 	@Test(priority=2)
 	public void Login() throws Exception 
 	{
-		homepage=new Homepage(driver);
+		homepage=new com.Test.Pages.Homepage(driver);
 		homepage.Verify_Login();
 
 		Assert.assertEquals(driver.getCurrentUrl(), "http://pcsv2dev.azurewebsites.net/#/clients/all");
@@ -60,7 +49,7 @@ public class HomepageTest
 	@Test(priority=1)
 	public void Url() 
 	{
-		homepage=new Homepage(driver);
+		homepage=new com.Test.Pages.Homepage(driver);
 		System.out.println(homepage.Verify_Url());
 
 		Assert.assertEquals(homepage.Verify_Url(), "http://pcsv2dev.azurewebsites.net/#/");
@@ -69,7 +58,7 @@ public class HomepageTest
 	@Test(priority=3)
 	public void Title() 
 	{
-		homepage=new Homepage(driver);
+		homepage=new com.Test.Pages.Homepage(driver);
 		System.out.println(homepage.Verify_Title());
 
 		Assert.assertEquals(homepage.Verify_Title(), "Paradigm");
@@ -78,7 +67,7 @@ public class HomepageTest
 	@Test(priority=4)
 	public void Logout() throws Exception 
 	{
-		homepage=new Homepage(driver);
+		homepage=new com.Test.Pages.Homepage(driver);
 		homepage.Verify_Login();
 
 		homepage.Verify_Logout();
