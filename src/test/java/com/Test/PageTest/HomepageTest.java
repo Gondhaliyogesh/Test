@@ -1,17 +1,10 @@
 package com.Test.PageTest;
 
-import java.net.MalformedURLException;
-import java.net.URL;
-
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 import com.Test.Pages.Homepage;
@@ -25,7 +18,7 @@ public class HomepageTest
 	Homepage homepage;
 
 	@BeforeMethod
-	public void Start() throws MalformedURLException
+	public void Start() 
 	{
 		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Admin\\Desktop\\Yogesh Gondhali\\Software\\geckodriver.exe");
 		driver=new FirefoxDriver();
@@ -33,8 +26,7 @@ public class HomepageTest
 		driver.get("http://pcsv2dev.azurewebsites.net");
 
 		driver.manage().window().maximize();
-		
-		
+
 	}
 	
 	@Test(priority=2)
@@ -59,7 +51,7 @@ public class HomepageTest
 		homepage=new Homepage(driver);
 		System.out.println(homepage.Verify_Title());
 		
-		Assert.assertEquals(homepage.Verify_Title(), "Paradig");
+		Assert.assertEquals(homepage.Verify_Title(), "Paradigm");
 	}
 
 	@AfterMethod
