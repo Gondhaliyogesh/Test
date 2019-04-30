@@ -32,16 +32,16 @@ public class HomepageTest
 	@BeforeMethod
 	public void Start() throws ATUTestRecorderException 
 	{
-		DateFormat dateFormat = new SimpleDateFormat("dd-MM-yy HH-mm-ss");
+		/*DateFormat dateFormat = new SimpleDateFormat("dd-MM-yy HH-mm-ss");
 		Date date = new Date();
 
 		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Admin\\Desktop\\Yogesh Gondhali\\Software\\geckodriver.exe");
 
 		recorder=new ATUTestRecorder("F:\\Auto\\Test\\ScriptVideos","Paradigm_Test_Exicution-"+dateFormat.format(date),false);
-
+*/
 		
 		driver=new FirefoxDriver();
-		recorder.start();
+		//recorder.start();
 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -94,7 +94,7 @@ public class HomepageTest
 		Thread.sleep(3000);
 
 		driver.close();
-		recorder.stop();
+		//recorder.stop();
 	}
 
 }
