@@ -25,10 +25,10 @@ public class HomepageTest
 		
 
 		recorder=new ATUTestRecorder("F:\\Auto\\Test\\ScriptVideos","Paradigm_Test_Exicution-"+dateFormat.format(date),false);
-*/
+*///recorder.start();
 		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Admin\\Desktop\\Yogesh Gondhali\\Software\\geckodriver.exe");
 		driver=new FirefoxDriver();
-		//recorder.start();
+		
 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -37,7 +37,7 @@ public class HomepageTest
 	}
 
 	@Test(priority=2)
-	public void Login() throws Exception 
+	public void Verify_Login() throws Exception 
 	{
 		homepage=new com.Test.Pages.Homepage(driver);
 		homepage.Verify_Login();
@@ -47,7 +47,7 @@ public class HomepageTest
 	}
 
 	@Test(priority=1)
-	public void Url() 
+	public void Verify_Url() 
 	{
 		homepage=new com.Test.Pages.Homepage(driver);
 		System.out.println(homepage.Verify_Url());
@@ -56,7 +56,7 @@ public class HomepageTest
 	}
 
 	@Test(priority=3)
-	public void Title() 
+	public void Verify_Title() 
 	{
 		homepage=new com.Test.Pages.Homepage(driver);
 		System.out.println(homepage.Verify_Title());
@@ -65,7 +65,7 @@ public class HomepageTest
 	}
 
 	@Test(priority=4)
-	public void Logout() throws Exception 
+	public void Verify_Logout() throws Exception 
 	{
 		homepage=new com.Test.Pages.Homepage(driver);
 		homepage.Verify_Login();
@@ -81,7 +81,7 @@ public class HomepageTest
 		Thread.sleep(3000);
 
 		driver.close();
-		//recorder.stop();
+		
 	}
 
 }

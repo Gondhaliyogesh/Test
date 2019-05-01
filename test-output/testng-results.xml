@@ -1,110 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="4" failed="0" total="4" passed="0">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14" started-at="2019-04-30T08:52:18Z" finished-at="2019-04-30T08:52:18Z">
+  <suite name="Suite" duration-ms="113554" started-at="2019-05-01T04:51:52Z" finished-at="2019-05-01T04:53:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14" started-at="2019-04-30T08:52:18Z" finished-at="2019-04-30T08:52:18Z">
-      <class name="com.Test.PageTest.LoginPage">
-        <test-method status="FAIL" signature="start()[pri:0, instance:com.Test.PageTest.LoginPage@1fbc7afb]" name="start" is-config="true" duration-ms="0" started-at="2019-04-30T14:22:17Z" finished-at="2019-04-30T14:22:17Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Invalid username or password (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.38 seconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'YUGENSYSDEV-15', ip: '192.168.1.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Invalid username or password (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.38 seconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'YUGENSYSDEV-15', ip: '192.168.1.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: RemoteWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
-	at com.Test.PageTest.LoginPage.start(LoginPage.java:35)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+    <test name="Test" duration-ms="113554" started-at="2019-05-01T04:51:52Z" finished-at="2019-05-01T04:53:45Z">
+      <class name="com.Test.PageTest.HomepageTest">
+        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Start" is-config="true" duration-ms="17100" started-at="2019-05-01T10:21:52Z" finished-at="2019-05-01T10:22:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- start -->
-        <test-method status="SKIP" signature="Close()[pri:0, instance:com.Test.PageTest.LoginPage@1fbc7afb]" name="Close" is-config="true" duration-ms="0" started-at="2019-04-30T14:22:18Z" finished-at="2019-04-30T14:22:18Z">
+        </test-method> <!-- Start -->
+        <test-method status="PASS" signature="Verify_Url()[pri:1, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Verify_Url" duration-ms="30" started-at="2019-05-01T10:22:09Z" finished-at="2019-05-01T10:22:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Url -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Close" is-config="true" duration-ms="4388" started-at="2019-05-01T10:22:09Z" finished-at="2019-05-01T10:22:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method status="SKIP" signature="Url()[pri:1, instance:com.Test.PageTest.LoginPage@1fbc7afb]" name="Url" duration-ms="0" started-at="2019-04-30T14:22:18Z" finished-at="2019-04-30T14:22:18Z">
+        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Start" is-config="true" duration-ms="15872" started-at="2019-05-01T10:22:13Z" finished-at="2019-05-01T10:22:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Url -->
-        <test-method status="SKIP" signature="Close()[pri:0, instance:com.Test.PageTest.LoginPage@1fbc7afb]" name="Close" is-config="true" duration-ms="0" started-at="2019-04-30T14:22:18Z" finished-at="2019-04-30T14:22:18Z">
+        </test-method> <!-- Start -->
+        <test-method status="PASS" signature="Verify_Login()[pri:2, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Verify_Login" duration-ms="5414" started-at="2019-05-01T10:22:29Z" finished-at="2019-05-01T10:22:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Close -->
-        <test-method status="SKIP" signature="Login()[pri:2, instance:com.Test.PageTest.LoginPage@1fbc7afb]" name="Login" duration-ms="0" started-at="2019-04-30T14:22:18Z" finished-at="2019-04-30T14:22:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method status="SKIP" signature="Title()[pri:3, instance:com.Test.PageTest.LoginPage@1fbc7afb]" name="Title" duration-ms="0" started-at="2019-04-30T14:22:18Z" finished-at="2019-04-30T14:22:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Title -->
-        <test-method status="SKIP" signature="Close()[pri:0, instance:com.Test.PageTest.LoginPage@1fbc7afb]" name="Close" is-config="true" duration-ms="0" started-at="2019-04-30T14:22:18Z" finished-at="2019-04-30T14:22:18Z">
+        </test-method> <!-- Verify_Login -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Close" is-config="true" duration-ms="4376" started-at="2019-05-01T10:22:34Z" finished-at="2019-05-01T10:22:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method status="SKIP" signature="Logout()[pri:4, instance:com.Test.PageTest.LoginPage@1fbc7afb]" name="Logout" duration-ms="0" started-at="2019-04-30T14:22:18Z" finished-at="2019-04-30T14:22:18Z">
+        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Start" is-config="true" duration-ms="16932" started-at="2019-05-01T10:22:39Z" finished-at="2019-05-01T10:22:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Logout -->
-        <test-method status="SKIP" signature="Close()[pri:0, instance:com.Test.PageTest.LoginPage@1fbc7afb]" name="Close" is-config="true" duration-ms="0" started-at="2019-04-30T14:22:18Z" finished-at="2019-04-30T14:22:18Z">
+        </test-method> <!-- Start -->
+        <test-method status="PASS" signature="Verify_Title()[pri:3, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Verify_Title" duration-ms="9" started-at="2019-05-01T10:22:56Z" finished-at="2019-05-01T10:22:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Title -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Close" is-config="true" duration-ms="4407" started-at="2019-05-01T10:22:56Z" finished-at="2019-05-01T10:23:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-      </class> <!-- com.Test.PageTest.LoginPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Start" is-config="true" duration-ms="16470" started-at="2019-05-01T10:23:00Z" finished-at="2019-05-01T10:23:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start -->
+        <test-method status="PASS" signature="Verify_Logout()[pri:4, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Verify_Logout" duration-ms="24144" started-at="2019-05-01T10:23:17Z" finished-at="2019-05-01T10:23:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Logout -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Close" is-config="true" duration-ms="4387" started-at="2019-05-01T10:23:41Z" finished-at="2019-05-01T10:23:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- com.Test.PageTest.HomepageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
