@@ -20,15 +20,15 @@ public class HomepageTest
 	public void Start()
 	{
 		/*DateFormat dateFormat = new SimpleDateFormat("dd-MM-yy HH-mm-ss");
-		Date date = new Date();
+		Date date = new Date();*/
 
-		
 
-		recorder=new ATUTestRecorder("F:\\Auto\\Test\\ScriptVideos","Paradigm_Test_Exicution-"+dateFormat.format(date),false);
-*///recorder.start();
+
+		//recorder=new ATUTestRecorder("F:\\Auto\\Test\\ScriptVideos","Paradigm_Test_Exicution-"+dateFormat.format(date),false);
+		//recorder.start();
 		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Admin\\Desktop\\Yogesh Gondhali\\Software\\geckodriver.exe");
 		driver=new FirefoxDriver();
-		
+
 
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -81,7 +81,7 @@ public class HomepageTest
 		Thread.sleep(3000);
 
 		driver.close();
-		
+
 	}
 
 }

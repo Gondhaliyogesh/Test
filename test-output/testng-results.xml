@@ -1,97 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="4" passed="3">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="109791" started-at="2019-05-01T07:05:05Z" finished-at="2019-05-01T07:06:55Z">
+  <suite name="Default suite" duration-ms="110981" started-at="2019-05-01T07:11:42Z" finished-at="2019-05-01T07:13:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="109791" started-at="2019-05-01T07:05:05Z" finished-at="2019-05-01T07:06:55Z">
+    <test name="Default test" duration-ms="110981" started-at="2019-05-01T07:11:42Z" finished-at="2019-05-01T07:13:33Z">
       <class name="com.Test.PageTest.HomepageTest">
-        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Start" is-config="true" duration-ms="15848" started-at="2019-05-01T12:35:05Z" finished-at="2019-05-01T12:35:21Z">
+        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Start" is-config="true" duration-ms="16557" started-at="2019-05-01T12:41:42Z" finished-at="2019-05-01T12:41:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start -->
-        <test-method status="PASS" signature="Verify_Url()[pri:1, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Verify_Url" duration-ms="32" started-at="2019-05-01T12:35:21Z" finished-at="2019-05-01T12:35:21Z">
+        <test-method status="PASS" signature="Verify_Url()[pri:1, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Verify_Url" duration-ms="42" started-at="2019-05-01T12:41:58Z" finished-at="2019-05-01T12:41:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Url -->
-        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Close" is-config="true" duration-ms="4165" started-at="2019-05-01T12:35:21Z" finished-at="2019-05-01T12:35:25Z">
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Close" is-config="true" duration-ms="4291" started-at="2019-05-01T12:41:59Z" finished-at="2019-05-01T12:42:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Start" is-config="true" duration-ms="15782" started-at="2019-05-01T12:35:25Z" finished-at="2019-05-01T12:35:41Z">
+        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Start" is-config="true" duration-ms="15983" started-at="2019-05-01T12:42:03Z" finished-at="2019-05-01T12:42:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start -->
-        <test-method status="FAIL" signature="Verify_Login()[pri:2, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Verify_Login" duration-ms="5411" started-at="2019-05-01T12:35:41Z" finished-at="2019-05-01T12:35:46Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [http://pcsv2dev.azurewebsites.net/#] but found [http://pcsv2dev.azurewebsites.net/#/clients/all]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [http://pcsv2dev.azurewebsites.net/#] but found [http://pcsv2dev.azurewebsites.net/#/clients/all]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:190)
-	at org.testng.Assert.assertEquals(Assert.java:200)
-	at com.Test.PageTest.HomepageTest.Verify_Login(HomepageTest.java:45)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="Verify_Login()[pri:2, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Verify_Login" duration-ms="5427" started-at="2019-05-01T12:42:19Z" finished-at="2019-05-01T12:42:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Login -->
-        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Close" is-config="true" duration-ms="4189" started-at="2019-05-01T12:35:46Z" finished-at="2019-05-01T12:35:50Z">
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Close" is-config="true" duration-ms="4430" started-at="2019-05-01T12:42:24Z" finished-at="2019-05-01T12:42:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Start" is-config="true" duration-ms="15541" started-at="2019-05-01T12:35:50Z" finished-at="2019-05-01T12:36:06Z">
+        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Start" is-config="true" duration-ms="15755" started-at="2019-05-01T12:42:29Z" finished-at="2019-05-01T12:42:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start -->
-        <test-method status="PASS" signature="Verify_Title()[pri:3, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Verify_Title" duration-ms="10" started-at="2019-05-01T12:36:06Z" finished-at="2019-05-01T12:36:06Z">
+        <test-method status="PASS" signature="Verify_Title()[pri:3, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Verify_Title" duration-ms="12" started-at="2019-05-01T12:42:44Z" finished-at="2019-05-01T12:42:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Title -->
-        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Close" is-config="true" duration-ms="4214" started-at="2019-05-01T12:36:06Z" finished-at="2019-05-01T12:36:10Z">
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Close" is-config="true" duration-ms="4249" started-at="2019-05-01T12:42:44Z" finished-at="2019-05-01T12:42:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Start" is-config="true" duration-ms="15666" started-at="2019-05-01T12:36:10Z" finished-at="2019-05-01T12:36:26Z">
+        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Start" is-config="true" duration-ms="15563" started-at="2019-05-01T12:42:49Z" finished-at="2019-05-01T12:43:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start -->
-        <test-method status="PASS" signature="Verify_Logout()[pri:4, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Verify_Logout" duration-ms="24645" started-at="2019-05-01T12:36:26Z" finished-at="2019-05-01T12:36:50Z">
+        <test-method status="PASS" signature="Verify_Logout()[pri:4, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Verify_Logout" duration-ms="24272" started-at="2019-05-01T12:43:04Z" finished-at="2019-05-01T12:43:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Logout -->
-        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Close" is-config="true" duration-ms="4271" started-at="2019-05-01T12:36:50Z" finished-at="2019-05-01T12:36:55Z">
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Close" is-config="true" duration-ms="4383" started-at="2019-05-01T12:43:29Z" finished-at="2019-05-01T12:43:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->

@@ -6,15 +6,4 @@
       <class name="com.Test.PageTest.HomepageTest"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="com.Test.PageTest.HomepageTest">
-        <methods>
-          <include name="Start"/>
-          <include name="Verify_Login"/>
-          <include name="Close"/>
-        </methods>
-      </class> <!-- com.Test.PageTest.HomepageTest -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
