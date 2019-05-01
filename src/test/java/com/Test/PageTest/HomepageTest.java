@@ -42,7 +42,7 @@ public class HomepageTest
 		homepage=new com.Test.Pages.Homepage(driver);
 		homepage.Verify_Login();
 
-		Assert.assertEquals(driver.getCurrentUrl(), "http://pcsv2dev.azurewebsites.net/#");
+		Assert.assertEquals("http://pcsv2dev.azurewebsites.net/#", driver.getCurrentUrl());
 
 	}
 
@@ -52,7 +52,7 @@ public class HomepageTest
 		homepage=new com.Test.Pages.Homepage(driver);
 		System.out.println(homepage.Verify_Url());
 
-		Assert.assertEquals(homepage.Verify_Url(), "http://pcsv2dev.azurewebsites.net/#/");
+		Assert.assertEquals( "http://pcsv2dev.azurewebsites.net/#/", homepage.Verify_Url());
 	}
 
 	@Test(priority=3)
@@ -61,7 +61,7 @@ public class HomepageTest
 		homepage=new com.Test.Pages.Homepage(driver);
 		System.out.println(homepage.Verify_Title());
 
-		Assert.assertEquals(homepage.Verify_Title(), "Paradigm");
+		Assert.assertEquals("Paradigm", homepage.Verify_Title());
 	}
 
 	@Test(priority=4)
@@ -72,7 +72,7 @@ public class HomepageTest
 
 		homepage.Verify_Logout();
 
-		Assert.assertEquals(driver.getCurrentUrl(), "http://pcsv2dev.azurewebsites.net/#/");
+		Assert.assertEquals("http://pcsv2dev.azurewebsites.net/#/",driver.getCurrentUrl());
 	}
 
 	@AfterMethod
