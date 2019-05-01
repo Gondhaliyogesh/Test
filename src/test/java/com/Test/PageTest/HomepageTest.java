@@ -79,7 +79,6 @@ public class HomepageTest
 	public void Close() throws Exception 
 	{
 		Thread.sleep(3000);
-
 		driver.close();
 
 	}

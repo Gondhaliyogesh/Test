@@ -2,60 +2,60 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="110981" started-at="2019-05-01T07:11:42Z" finished-at="2019-05-01T07:13:33Z">
+  <suite name="Parsdigm Application" duration-ms="108387" started-at="2019-05-01T09:12:41Z" finished-at="2019-05-01T09:14:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="110981" started-at="2019-05-01T07:11:42Z" finished-at="2019-05-01T07:13:33Z">
+    <test name="Paradigm Application Automation Testing" duration-ms="108387" started-at="2019-05-01T09:12:41Z" finished-at="2019-05-01T09:14:29Z">
       <class name="com.Test.PageTest.HomepageTest">
-        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Start" is-config="true" duration-ms="16557" started-at="2019-05-01T12:41:42Z" finished-at="2019-05-01T12:41:58Z">
+        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Start" is-config="true" duration-ms="15906" started-at="2019-05-01T14:42:41Z" finished-at="2019-05-01T14:42:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start -->
-        <test-method status="PASS" signature="Verify_Url()[pri:1, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Verify_Url" duration-ms="42" started-at="2019-05-01T12:41:58Z" finished-at="2019-05-01T12:41:59Z">
+        <test-method status="PASS" signature="Verify_Url()[pri:1, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Verify_Url" duration-ms="28" started-at="2019-05-01T14:42:57Z" finished-at="2019-05-01T14:42:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Url -->
-        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Close" is-config="true" duration-ms="4291" started-at="2019-05-01T12:41:59Z" finished-at="2019-05-01T12:42:03Z">
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Close" is-config="true" duration-ms="4183" started-at="2019-05-01T14:42:57Z" finished-at="2019-05-01T14:43:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Start" is-config="true" duration-ms="15983" started-at="2019-05-01T12:42:03Z" finished-at="2019-05-01T12:42:19Z">
+        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Start" is-config="true" duration-ms="15269" started-at="2019-05-01T14:43:01Z" finished-at="2019-05-01T14:43:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start -->
-        <test-method status="PASS" signature="Verify_Login()[pri:2, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Verify_Login" duration-ms="5427" started-at="2019-05-01T12:42:19Z" finished-at="2019-05-01T12:42:24Z">
+        <test-method status="PASS" signature="Verify_Login()[pri:2, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Verify_Login" duration-ms="5397" started-at="2019-05-01T14:43:16Z" finished-at="2019-05-01T14:43:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Login -->
-        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Close" is-config="true" duration-ms="4430" started-at="2019-05-01T12:42:24Z" finished-at="2019-05-01T12:42:29Z">
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Close" is-config="true" duration-ms="4170" started-at="2019-05-01T14:43:22Z" finished-at="2019-05-01T14:43:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Start" is-config="true" duration-ms="15755" started-at="2019-05-01T12:42:29Z" finished-at="2019-05-01T12:42:44Z">
+        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Start" is-config="true" duration-ms="15662" started-at="2019-05-01T14:43:26Z" finished-at="2019-05-01T14:43:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start -->
-        <test-method status="PASS" signature="Verify_Title()[pri:3, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Verify_Title" duration-ms="12" started-at="2019-05-01T12:42:44Z" finished-at="2019-05-01T12:42:44Z">
+        <test-method status="PASS" signature="Verify_Title()[pri:3, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Verify_Title" duration-ms="7" started-at="2019-05-01T14:43:41Z" finished-at="2019-05-01T14:43:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Title -->
-        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Close" is-config="true" duration-ms="4249" started-at="2019-05-01T12:42:44Z" finished-at="2019-05-01T12:42:49Z">
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Close" is-config="true" duration-ms="4202" started-at="2019-05-01T14:43:41Z" finished-at="2019-05-01T14:43:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Start" is-config="true" duration-ms="15563" started-at="2019-05-01T12:42:49Z" finished-at="2019-05-01T12:43:04Z">
+        <test-method status="PASS" signature="Start()[pri:0, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Start" is-config="true" duration-ms="15282" started-at="2019-05-01T14:43:46Z" finished-at="2019-05-01T14:44:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Start -->
-        <test-method status="PASS" signature="Verify_Logout()[pri:4, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Verify_Logout" duration-ms="24272" started-at="2019-05-01T12:43:04Z" finished-at="2019-05-01T12:43:29Z">
+        <test-method status="PASS" signature="Verify_Logout()[pri:4, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Verify_Logout" duration-ms="23976" started-at="2019-05-01T14:44:01Z" finished-at="2019-05-01T14:44:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Logout -->
-        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@5a01ccaa]" name="Close" is-config="true" duration-ms="4383" started-at="2019-05-01T12:43:29Z" finished-at="2019-05-01T12:43:33Z">
+        <test-method status="PASS" signature="Close()[pri:0, instance:com.Test.PageTest.HomepageTest@6debcae2]" name="Close" is-config="true" duration-ms="4265" started-at="2019-05-01T14:44:25Z" finished-at="2019-05-01T14:44:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
       </class> <!-- com.Test.PageTest.HomepageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Paradigm Application Automation Testing -->
+  </suite> <!-- Parsdigm Application -->
 </testng-results>
