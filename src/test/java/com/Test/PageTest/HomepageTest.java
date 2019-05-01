@@ -42,7 +42,7 @@ public class HomepageTest
 		homepage=new com.Test.Pages.Homepage(driver);
 		homepage.Verify_Login();
 
-		Assert.assertEquals(driver.getCurrentUrl(), "http://pcsv2dev.azurewebsites.net/#/clients/all");
+		Assert.assertEquals(driver.getCurrentUrl(), "http://pcsv2dev.azurewebsites.net/#");
 
 	}
 
