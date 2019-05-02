@@ -54,6 +54,7 @@ public class Homepage
 	{
 		Actions act=new Actions(driver);
 		act.moveToElement(MoveToLogout_Btn).click().build().perform();
+		System.out.println((Logout_Btn.getCssValue("color")).toString());
 		
 		Thread.sleep(3000);
 		Logout_Btn.click();
