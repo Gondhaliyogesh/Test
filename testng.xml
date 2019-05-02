@@ -10,7 +10,8 @@
 	<test name="Paradigm Application Automation Testing">
 
 		<classes>
-			<class name="com.Test.PageTest.HomepageTest" />
+			<class name="com.Test.PageTest.HomepageTest"/>
 		</classes>
+		
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
