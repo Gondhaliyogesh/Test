@@ -9,8 +9,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class HomepageTest 
@@ -20,7 +22,7 @@ public class HomepageTest
 	com.Test.Pages.Homepage homepage;
 
 
-	@BeforeMethod
+	@BeforeSuite
 	public void Start() throws MalformedURLException
 	{
 		/*DateFormat dateFormat = new SimpleDateFormat("dd-MM-yy HH-mm-ss");
@@ -33,17 +35,19 @@ public class HomepageTest
 		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Admin\\Desktop\\Yogesh Gondhali\\Software\\geckodriver.exe");
 		driver=new FirefoxDriver();*/
 
-		String username = System.getenv("BROWSERSTACK_USERNAME");
+		/*String username = System.getenv("BROWSERSTACK_USERNAME");
 		String accessKey = System.getenv("BROWSERSTACK_ACCESS_KEY");
 		String browserstackLocal = System.getenv("BROWSERSTACK_LOCAL");
-		String browserstackLocalIdentifier = System.getenv("BROWSERSTACK_LOCAL_IDENTIFIER");
+		String browserstackLocalIdentifier = System.getenv("BROWSERSTACK_LOCAL_IDENTIFIER");*/
 
-		DesiredCapabilities capabilities = new DesiredCapabilities();
-		capabilities.setCapability("os", "Windows");
-		capabilities.setCapability("browser", "chrome");
-		capabilities.setCapability("browserstack.local", browserstackLocal);
-		capabilities.setCapability("browserstack.localIdentifier", browserstackLocalIdentifier);
-		driver = new RemoteWebDriver(new URL("https://" + username + ":" + accessKey + "@hub.browserstack.com/wd/hub"), capabilities);
+		DesiredCapabilities caps = new DesiredCapabilities();
+		caps.setCapability("os", "Windows");
+		caps.setCapability("os_version", "10");
+		caps.setCapability("browser", "Chrome");
+		caps.setCapability("browser_version", "74.0");
+		caps.setCapability("browserstack.local", "false");
+		caps.setCapability("browserstack.selenium_version", "3.5.2");
+		driver = new RemoteWebDriver(new URL("https://" + "yogeshgondhali2" + ":" + "2pyvYZdE8dm8U5CdgwMp" + "@hub.browserstack.com/wd/hub"), caps);
 		
 		
 		
@@ -92,7 +96,7 @@ public class HomepageTest
 		Assert.assertEquals(driver.getCurrentUrl(),"http://pcsv2dev.azurewebsites.net/#/");
 	}
 
-	@AfterMethod
+	@AfterClass
 	public void Close() throws Exception 
 	{
 		Thread.sleep(3000);
