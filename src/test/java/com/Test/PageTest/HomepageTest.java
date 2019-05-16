@@ -35,10 +35,10 @@ public class HomepageTest
 		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Admin\\Desktop\\Yogesh Gondhali\\Software\\geckodriver.exe");
 		driver=new FirefoxDriver();*/
 
-		/*String username = System.getenv("BROWSERSTACK_USERNAME");
+		String username = System.getenv("BROWSERSTACK_USERNAME");
 		String accessKey = System.getenv("BROWSERSTACK_ACCESS_KEY");
 		String browserstackLocal = System.getenv("BROWSERSTACK_LOCAL");
-		String browserstackLocalIdentifier = System.getenv("BROWSERSTACK_LOCAL_IDENTIFIER");*/
+		String browserstackLocalIdentifier = System.getenv("BROWSERSTACK_LOCAL_IDENTIFIER");
 
 		DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setCapability("os", "Windows");
@@ -47,8 +47,10 @@ public class HomepageTest
 		caps.setCapability("browser_version", "74.0");
 		caps.setCapability("browserstack.local", "false");
 		caps.setCapability("browserstack.selenium_version", "3.5.2");
-		driver = new RemoteWebDriver(new URL("https://" + "yogeshgondhali2" + ":" + "2pyvYZdE8dm8U5CdgwMp" + "@hub.browserstack.com/wd/hub"), caps);
-		
+		caps.setCapability("browserstack.local", browserstackLocal);
+		caps.setCapability("browserstack.localIdentifier", browserstackLocalIdentifier);
+		//driver = new RemoteWebDriver(new URL("https://" + "yogeshgondhali2" + ":" + "2pyvYZdE8dm8U5CdgwMp" + "@hub.browserstack.com/wd/hub"), caps);
+		driver = new RemoteWebDriver(new URL("https://" + username + ":" + accessKey + "@hub.browserstack.com/wd/hub"), caps);
 		
 		
 		driver.manage().window().maximize();
